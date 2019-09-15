@@ -3,7 +3,7 @@
         font-size: 5px;
     }
       #project-content {
-        width: 100vw !important;
+        width: 95% !important;
 
       }
 
@@ -11,14 +11,12 @@
         height: max-content !important;
       }
 
-      #project-content {
-        width: 100vw !important;
-      }
+
       #about-pic {
-        width: 70vw !important;
+        width: 70% !important;
       }
       #about-text {
-        width: 100vw !important;
+        width: 95% !important;
         height: max-content !important;
       }
 
@@ -27,7 +25,7 @@
         top: 10px !important;
         background-color: white;
         height: 20px !important;
-        width: 100vw !important;
+        width: 100% !important;
 
       }
 

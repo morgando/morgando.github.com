@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+#root {
+    font-family: 'Raleway', sans-serif;
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+
+}
+
+.undisplayed {
+    display: none;
+}
+
+.project-title {
+    font-size: 25px;
+    line-height: 120%
+}
+
+.project-preview {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-preview>* {
+}
+
+#projects {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+#project-previews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-title {
+    color: #FF6300 !important;
+}
+
+
+.tags > .ui.label {
+    margin: 3px;
+}
+
+
+.center-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#ball.moving {
+
+    animation: going .78s;  
+    animation-fill-mode: forwards;  
+    animation-timing-function: cubic-bezier(.41,.22,1,.55);
+
+}
+
+
+@keyframes going {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
+
+#cliff {
+    position: relative;
+
+    left: 200px;
+    background-color: black;
+    width: 3px;
+    height: 300px;
+}
+
+#gravitation-content {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 200px;
+}
+#name {
+    display: hidden;
+}
+#header {
+    font-size: 17px;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+
+    height: 200px;
+}
+
+#about {
+    margin-top: 20px;
+}
+
+
+#about-pic {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+#about-content > * {
+    display: block;
+    margin: 0 auto;
+}
+
+#about-content {
+    height: 100vh;
+}
+
+#project-content {
+    margin: 0 auto;
+    width: 40%;
+}
+
+#about-text {
+    margin-top: 30px;
+    width: 40%;
+    font-size: 17px;
+}
+
+#navbar > *{
+    height: 75%;
+}
+
+#navbar {
+    height: 150px;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+a {
+    color: #FF6300 !important;
+}

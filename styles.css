@@ -3,19 +3,27 @@
         font-size: 5px;
     }
       #project-content {
-        width: 100%;
+        width: 100vw !important;
 
       }
+
+      #projects {
+        height: max-content !important;
+      }
+
+      #project-content {
+        width: 100vw !important;
+      }
       #about-pic {
-        width: 70% !important;
+        width: 70vw !important;
       }
       #about-text {
-        width: 90% !important;
+        width: 100vw !important;
         height: max-content !important;
       }
 
       #header {
-        position: fixed;
+        position: fixed !important;
         top: 10px !important;
         background-color: white;
         height: 20px !important;

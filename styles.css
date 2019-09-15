@@ -17,6 +17,7 @@
 
       #about {
         width: 100vw !important;
+        margin-bottom: 80px;
       }
 
 
@@ -32,24 +33,35 @@
 
       #header {
         position: fixed !important;
-        top: 10px !important;
-        background-color: white;
-        height: 20px !important;
+        left: 0px !important;
+        top: 0px !important;
+
+        z-index: 100;
+        box-shadow: rgba(150, 150, 150, 0.2) 0px 0px 8px;
+        backdrop-filter: blur(2px);
+        height: 30px !important;
         width: 100% !important;
 
       }
 
       #navbar>* {
         display: grid !important;
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+
         
       }
 
 
 
       #navbar {
+
+        position: absolute;
+        z-index: 5;
         height: 20px !important;
         width: 100vw !important;
+        top: 25%;
+
       }
 
       #about {

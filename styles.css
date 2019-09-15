@@ -1,3 +1,12 @@
+@media only screen and (max-width: 600px) {
+  #project-content {
+    background-color: 100%;
+  }
+  #about-text {
+    width: 100%;
+  }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -122,6 +131,7 @@ html {
 #about-content {
     height: 100vh;
 }
+
 
 #project-content {
     margin: 0 auto;

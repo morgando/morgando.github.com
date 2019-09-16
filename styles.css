@@ -51,6 +51,10 @@
         height: 100%;
       }
 
+      #squirtle {
+        width: 200px !important;
+      }
+
       #header {
         position: fixed !important;
         left: 0px !important;
@@ -86,6 +90,10 @@
 
       #about {
         margin-top: 40px !important;
+      }
+
+      #contact {
+        height: 50vh !important;
       }
 }
 
@@ -244,6 +252,7 @@ html {
     width: 20%;
     margin: 0 auto;
     border-radius: 100%;
+    padding-bottom: 20px;
 }
 
 #about-content > * {
@@ -256,10 +265,22 @@ html {
 }
 
 .contact {
+    display: block;
     font-size: 25px;
     text-align: center;
     line-height: 1.5;
-    height: 75vh;
+
+
+}
+
+#contact {
+    display: block;
+    height: 60vh;
+}
+
+#footer {
+    margin-top: 10%;
+    display: block;
 }
 
 
@@ -275,7 +296,7 @@ html {
 }
 
 #squirtle {
-    width: 200px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -285,6 +306,7 @@ html {
     width: 70%;
     margin: 0 auto;
     height: 25vh;
+    margin-bottom: 20vh;
 
 }
 
@@ -300,8 +322,7 @@ html {
 }
 
 #contact {
-    height: 25vh;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 #navbar {

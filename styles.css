@@ -46,7 +46,7 @@
 
       #navbar>* {
         display: grid !important;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
         text-align: center;
 
         
@@ -225,6 +225,10 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.navbutton {
+    color: black !important;
 }
 
 

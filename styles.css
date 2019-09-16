@@ -3,7 +3,7 @@
         font-size: 5px;
     }
       #project-content {
-        width: 100vw !important;
+        width: 70vw !important;
 
       }
 
@@ -29,6 +29,26 @@
         width: 95% !important;
         height: max-content !important;
         margin: 0 auto !important;
+      }
+
+      .project-title {
+        font-size: 30px !important;
+      }
+
+      #project-previews {
+        display: flex !important;
+        overflow: auto;
+
+      }
+      .project-preview {
+        margin-left: 15px !important;
+      }
+
+      .tags {
+        display: flex !important;
+        flex-direction: column;
+        overflow: auto;
+        height: 100%;
       }
 
       #header {
@@ -101,10 +121,16 @@ html {
 .project-preview>* {
 }
 
-#projects {
+.overlay {
     padding-top: 100px;
     height: 100vh;
+    z-index: 100;
+    box-shadow: rgba(150, 150, 150, 0.2) 0px 0px 8px;
+    backdrop-filter: blur(10px);
+
 }
+
+
 
 #contact {
     height: 100vh;
@@ -113,11 +139,20 @@ html {
 #project-previews {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+#projects {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .project-title {
     color: #FF6300 !important;
 }
+
+
 
 
 .tags > .ui.label {
@@ -141,6 +176,14 @@ html {
     animation-fill-mode: forwards;  
     animation-timing-function: cubic-bezier(.41,.22,1,.55);
 
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer>* {
+    justify-content: center;
 }
 
 
@@ -221,7 +264,10 @@ html {
 
 #squirtle {
     width: 250px;
+    margin: 0 auto;
 }
+
+
 
 #footer {
     width: 70%;

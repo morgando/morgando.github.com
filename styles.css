@@ -146,6 +146,12 @@ html {
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    height: 100vh
+
+}
+
+#proj {
+    padding-top: 20%;
 }
 
 .project-title {
@@ -215,12 +221,17 @@ html {
     display: hidden;
 }
 #header {
+    z-index: 100;
+
+    border-radius: 10%;
+    
+    backdrop-filter: blur(5px);
     font-size: 17px;
     position: fixed;
     top: 5%;
     left: 5%;
 
-    height: 200px;
+    height: max-content;
 }
 
 #about {
@@ -248,6 +259,7 @@ html {
     font-size: 25px;
     text-align: center;
     line-height: 1.5;
+    height: 75vh;
 }
 
 
@@ -263,7 +275,7 @@ html {
 }
 
 #squirtle {
-    width: 250px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -272,15 +284,19 @@ html {
 #footer {
     width: 70%;
     margin: 0 auto;
+    height: 25vh;
+
 }
 
 .footer>* {
     text-align: center;
-    margin-bottom: 20vh;
 }
 
 #navbar > *{
-    height: 75%;
+    height: 100%;
+}
+#navbar > *>*{
+    height: 100%;
 }
 
 #contact {
@@ -289,7 +305,7 @@ html {
 }
 
 #navbar {
-    height: 150px;
+    height: 120px;
 
 }
 

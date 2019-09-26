@@ -228,22 +228,33 @@ html {
 #name {
     display: hidden;
 }
-#header {
+  #header {
+    position: fixed !important;
+    left: 0px !important;
+    top: 0px !important;
+
     z-index: 100;
-
-    border-radius: 10%;
-    
+    box-shadow: rgba(150, 150, 150, 0.2) 0px 0px 8px;
     backdrop-filter: blur(5px);
-    font-size: 17px;
-    position: fixed;
-    top: 5%;
-    left: 5%;
+    height: 40px !important;
+    width: 100% !important;
 
-    height: max-content;
-}
+  }
+
+    #navbar>* {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    text-align: center;
+
+
+
+    padding-top: 10px;
+
+    
+  }
 
 #about {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
@@ -314,21 +325,12 @@ html {
     text-align: center;
 }
 
-#navbar > *{
-    height: 100%;
-}
-#navbar > *>*{
-    height: 100%;
-}
+
 
 #contact {
     padding-top: 150px;
 }
 
-#navbar {
-    height: 120px;
-
-}
 
 .flex-column {
     display: flex;
